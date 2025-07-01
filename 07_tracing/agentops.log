@@ -1,0 +1,11 @@
+2025-06-27 06:22:19,721 - INFO - [ConcurrentFuturesInstrumentor] Successfully instrumented concurrent.futures.ThreadPoolExecutor
+2025-06-27 06:22:19,721 - INFO - AgentOps: Successfully instrumented 'ConcurrentFuturesInstrumentor' for package 'python'.
+2025-06-27 06:22:20,136 - WARNING - [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+2025-06-27 06:22:20,137 - INFO - AgentOps: Successfully instrumented 'OpenaiInstrumentor' for package 'agentops.instrumentation.providers.openai'.
+2025-06-27 06:22:20,139 - INFO - AgentOps: 'agents' is the first-targeted agentic library. Will uninstrument providers if any are/become active.
+2025-06-27 06:22:20,139 - INFO - AgentOps: Uninstrumented provider: OpenaiInstrumentor (for package 'openai') due to agentic library activation.
+2025-06-27 06:22:20,163 - WARNING - [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+2025-06-27 06:22:20,163 - INFO - AgentOps: Successfully instrumented 'OpenaiInstrumentor' for package 'agentops.instrumentation.providers.openai'.
+2025-06-27 06:22:20,173 - INFO - AgentOps: Successfully instrumented 'OpenAIAgentsInstrumentor' for package 'agentops.instrumentation.agentic.openai_agents'.
+2025-06-27 06:22:20,174 - INFO - Session Replay for default trace: https://app.agentops.ai/sessions?trace_id=aa2aadc2bf4cd65af56fd3c2b4cc09ba
+2025-06-27 06:23:51,025 - INFO - Session Replay for default.session trace: https://app.agentops.ai/sessions?trace_id=aa2aadc2bf4cd65af56fd3c2b4cc09ba
